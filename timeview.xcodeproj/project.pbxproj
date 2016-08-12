@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68D0BA61D5DA42D00764F52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BA51D5DA42D00764F52 /* main.m */; };
+		A68D0BA91D5DA42D00764F52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BA81D5DA42D00764F52 /* AppDelegate.m */; };
+		A68D0BAC1D5DA42D00764F52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BAB1D5DA42D00764F52 /* ViewController.m */; };
+		A68D0BAF1D5DA42D00764F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68D0BAD1D5DA42D00764F52 /* Main.storyboard */; };
+		A68D0BB11D5DA42D00764F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68D0BB01D5DA42D00764F52 /* Assets.xcassets */; };
+		A68D0BB41D5DA42D00764F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68D0BB21D5DA42D00764F52 /* LaunchScreen.storyboard */; };
+		A68D0BBF1D5DA42D00764F52 /* timeviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BBE1D5DA42D00764F52 /* timeviewTests.m */; };
+		A68D0BCA1D5DA42D00764F52 /* timeviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BC91D5DA42D00764F52 /* timeviewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A68D0BBB1D5DA42D00764F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A68D0B991D5DA42D00764F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A68D0BA01D5DA42D00764F52;
+			remoteInfo = timeview;
+		};
+		A68D0BC61D5DA42D00764F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A68D0B991D5DA42D00764F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A68D0BA01D5DA42D00764F52;
+			remoteInfo = timeview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A68D0BA11D5DA42D00764F52 /* timeview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D0BA51D5DA42D00764F52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A68D0BA71D5DA42D00764F52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A68D0BA81D5DA42D00764F52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A68D0BAA1D5DA42D00764F52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A68D0BAB1D5DA42D00764F52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A68D0BAE1D5DA42D00764F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A68D0BB01D5DA42D00764F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A68D0BB31D5DA42D00764F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A68D0BB51D5DA42D00764F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68D0BBA1D5DA42D00764F52 /* timeviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D0BBE1D5DA42D00764F52 /* timeviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeviewTests.m; sourceTree = "<group>"; };
+		A68D0BC01D5DA42D00764F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68D0BC51D5DA42D00764F52 /* timeviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D0BC91D5DA42D00764F52 /* timeviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeviewUITests.m; sourceTree = "<group>"; };
+		A68D0BCB1D5DA42D00764F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68D0B9E1D5DA42D00764F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BB71D5DA42D00764F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BC21D5DA42D00764F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A68D0B981D5DA42D00764F52 = {
+			isa = PBXGroup;
+			children = (
+				A68D0BA31D5DA42D00764F52 /* timeview */,
+				A68D0BBD1D5DA42D00764F52 /* timeviewTests */,
+				A68D0BC81D5DA42D00764F52 /* timeviewUITests */,
+				A68D0BA21D5DA42D00764F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68D0BA21D5DA42D00764F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68D0BA11D5DA42D00764F52 /* timeview.app */,
+				A68D0BBA1D5DA42D00764F52 /* timeviewTests.xctest */,
+				A68D0BC51D5DA42D00764F52 /* timeviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68D0BA31D5DA42D00764F52 /* timeview */ = {
+			isa = PBXGroup;
+			children = (
+				A68D0BA71D5DA42D00764F52 /* AppDelegate.h */,
+				A68D0BA81D5DA42D00764F52 /* AppDelegate.m */,
+				A68D0BAA1D5DA42D00764F52 /* ViewController.h */,
+				A68D0BAB1D5DA42D00764F52 /* ViewController.m */,
+				A68D0BAD1D5DA42D00764F52 /* Main.storyboard */,
+				A68D0BB01D5DA42D00764F52 /* Assets.xcassets */,
+				A68D0BB21D5DA42D00764F52 /* LaunchScreen.storyboard */,
+				A68D0BB51D5DA42D00764F52 /* Info.plist */,
+				A68D0BA41D5DA42D00764F52 /* Supporting Files */,
+			);
+			path = timeview;
+			sourceTree = "<group>";
+		};
+		A68D0BA41D5DA42D00764F52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68D0BA51D5DA42D00764F52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A68D0BBD1D5DA42D00764F52 /* timeviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A68D0BBE1D5DA42D00764F52 /* timeviewTests.m */,
+				A68D0BC01D5DA42D00764F52 /* Info.plist */,
+			);
+			path = timeviewTests;
+			sourceTree = "<group>";
+		};
+		A68D0BC81D5DA42D00764F52 /* timeviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A68D0BC91D5DA42D00764F52 /* timeviewUITests.m */,
+				A68D0BCB1D5DA42D00764F52 /* Info.plist */,
+			);
+			path = timeviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68D0BA01D5DA42D00764F52 /* timeview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68D0BCE1D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeview" */;
+			buildPhases = (
+				A68D0B9D1D5DA42D00764F52 /* Sources */,
+				A68D0B9E1D5DA42D00764F52 /* Frameworks */,
+				A68D0B9F1D5DA42D00764F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeview;
+			productName = timeview;
+			productReference = A68D0BA11D5DA42D00764F52 /* timeview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A68D0BB91D5DA42D00764F52 /* timeviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68D0BD11D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewTests" */;
+			buildPhases = (
+				A68D0BB61D5DA42D00764F52 /* Sources */,
+				A68D0BB71D5DA42D00764F52 /* Frameworks */,
+				A68D0BB81D5DA42D00764F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68D0BBC1D5DA42D00764F52 /* PBXTargetDependency */,
+			);
+			name = timeviewTests;
+			productName = timeviewTests;
+			productReference = A68D0BBA1D5DA42D00764F52 /* timeviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A68D0BC41D5DA42D00764F52 /* timeviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68D0BD41D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewUITests" */;
+			buildPhases = (
+				A68D0BC11D5DA42D00764F52 /* Sources */,
+				A68D0BC21D5DA42D00764F52 /* Frameworks */,
+				A68D0BC31D5DA42D00764F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68D0BC71D5DA42D00764F52 /* PBXTargetDependency */,
+			);
+			name = timeviewUITests;
+			productName = timeviewUITests;
+			productReference = A68D0BC51D5DA42D00764F52 /* timeviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A68D0B991D5DA42D00764F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kaiyi;
+				TargetAttributes = {
+					A68D0BA01D5DA42D00764F52 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A68D0BB91D5DA42D00764F52 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A68D0BA01D5DA42D00764F52;
+					};
+					A68D0BC41D5DA42D00764F52 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A68D0BA01D5DA42D00764F52;
+					};
+				};
+			};
+			buildConfigurationList = A68D0B9C1D5DA42D00764F52 /* Build configuration list for PBXProject "timeview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A68D0B981D5DA42D00764F52;
+			productRefGroup = A68D0BA21D5DA42D00764F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68D0BA01D5DA42D00764F52 /* timeview */,
+				A68D0BB91D5DA42D00764F52 /* timeviewTests */,
+				A68D0BC41D5DA42D00764F52 /* timeviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68D0B9F1D5DA42D00764F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D0BB41D5DA42D00764F52 /* LaunchScreen.storyboard in Resources */,
+				A68D0BB11D5DA42D00764F52 /* Assets.xcassets in Resources */,
+				A68D0BAF1D5DA42D00764F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BB81D5DA42D00764F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BC31D5DA42D00764F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68D0B9D1D5DA42D00764F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D0BAC1D5DA42D00764F52 /* ViewController.m in Sources */,
+				A68D0BA91D5DA42D00764F52 /* AppDelegate.m in Sources */,
+				A68D0BA61D5DA42D00764F52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BB61D5DA42D00764F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D0BBF1D5DA42D00764F52 /* timeviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68D0BC11D5DA42D00764F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D0BCA1D5DA42D00764F52 /* timeviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A68D0BBC1D5DA42D00764F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A68D0BA01D5DA42D00764F52 /* timeview */;
+			targetProxy = A68D0BBB1D5DA42D00764F52 /* PBXContainerItemProxy */;
+		};
+		A68D0BC71D5DA42D00764F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A68D0BA01D5DA42D00764F52 /* timeview */;
+			targetProxy = A68D0BC61D5DA42D00764F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A68D0BAD1D5DA42D00764F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68D0BAE1D5DA42D00764F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A68D0BB21D5DA42D00764F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68D0BB31D5DA42D00764F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68D0BCC1D5DA42D00764F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A68D0BCD1D5DA42D00764F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A68D0BCF1D5DA42D00764F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = timeview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A68D0BD01D5DA42D00764F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = timeview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A68D0BD21D5DA42D00764F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = timeviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeview.app/timeview";
+			};
+			name = Debug;
+		};
+		A68D0BD31D5DA42D00764F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = timeviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeview.app/timeview";
+			};
+			name = Release;
+		};
+		A68D0BD51D5DA42D00764F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = timeviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = timeview;
+			};
+			name = Debug;
+		};
+		A68D0BD61D5DA42D00764F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = timeviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = timeview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68D0B9C1D5DA42D00764F52 /* Build configuration list for PBXProject "timeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68D0BCC1D5DA42D00764F52 /* Debug */,
+				A68D0BCD1D5DA42D00764F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68D0BCE1D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68D0BCF1D5DA42D00764F52 /* Debug */,
+				A68D0BD01D5DA42D00764F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A68D0BD11D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68D0BD21D5DA42D00764F52 /* Debug */,
+				A68D0BD31D5DA42D00764F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A68D0BD41D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68D0BD51D5DA42D00764F52 /* Debug */,
+				A68D0BD61D5DA42D00764F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A68D0B991D5DA42D00764F52 /* Project object */;
+}
