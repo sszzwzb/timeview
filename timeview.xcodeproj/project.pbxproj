@@ -15,6 +15,9 @@
 		A68D0BB41D5DA42D00764F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68D0BB21D5DA42D00764F52 /* LaunchScreen.storyboard */; };
 		A68D0BBF1D5DA42D00764F52 /* timeviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BBE1D5DA42D00764F52 /* timeviewTests.m */; };
 		A68D0BCA1D5DA42D00764F52 /* timeviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BC91D5DA42D00764F52 /* timeviewUITests.m */; };
+		A68D0BDC1D5DA6AF00764F52 /* Team2_on_View.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BDB1D5DA6AF00764F52 /* Team2_on_View.m */; };
+		A68D0BDF1D5DA6CE00764F52 /* Home_Label_but.m in Sources */ = {isa = PBXBuildFile; fileRef = A68D0BDE1D5DA6CE00764F52 /* Home_Label_but.m */; };
+		A6B06F8B2159C80D004D299C /* DIYSystemDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B06F8A2159C80D004D299C /* DIYSystemDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A68D0BC51D5DA42D00764F52 /* timeviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68D0BC91D5DA42D00764F52 /* timeviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = timeviewUITests.m; sourceTree = "<group>"; };
 		A68D0BCB1D5DA42D00764F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A68D0BDA1D5DA6AF00764F52 /* Team2_on_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team2_on_View.h; sourceTree = "<group>"; };
+		A68D0BDB1D5DA6AF00764F52 /* Team2_on_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team2_on_View.m; sourceTree = "<group>"; };
+		A68D0BDD1D5DA6CE00764F52 /* Home_Label_but.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_Label_but.h; sourceTree = "<group>"; };
+		A68D0BDE1D5DA6CE00764F52 /* Home_Label_but.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_Label_but.m; sourceTree = "<group>"; };
+		A6B06F892159C80D004D299C /* DIYSystemDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYSystemDatePickerView.h; sourceTree = "<group>"; };
+		A6B06F8A2159C80D004D299C /* DIYSystemDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYSystemDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,11 @@
 				A68D0BA81D5DA42D00764F52 /* AppDelegate.m */,
 				A68D0BAA1D5DA42D00764F52 /* ViewController.h */,
 				A68D0BAB1D5DA42D00764F52 /* ViewController.m */,
+				A6B06F882159C7E1004D299C /* DIYSystemDatePicker */,
+				A68D0BDA1D5DA6AF00764F52 /* Team2_on_View.h */,
+				A68D0BDB1D5DA6AF00764F52 /* Team2_on_View.m */,
+				A68D0BDD1D5DA6CE00764F52 /* Home_Label_but.h */,
+				A68D0BDE1D5DA6CE00764F52 /* Home_Label_but.m */,
 				A68D0BAD1D5DA42D00764F52 /* Main.storyboard */,
 				A68D0BB01D5DA42D00764F52 /* Assets.xcassets */,
 				A68D0BB21D5DA42D00764F52 /* LaunchScreen.storyboard */,
@@ -138,6 +152,15 @@
 				A68D0BCB1D5DA42D00764F52 /* Info.plist */,
 			);
 			path = timeviewUITests;
+			sourceTree = "<group>";
+		};
+		A6B06F882159C7E1004D299C /* DIYSystemDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A6B06F892159C80D004D299C /* DIYSystemDatePickerView.h */,
+				A6B06F8A2159C80D004D299C /* DIYSystemDatePickerView.m */,
+			);
+			path = DIYSystemDatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +230,7 @@
 				TargetAttributes = {
 					A68D0BA01D5DA42D00764F52 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RBF9XG4CHM;
 					};
 					A68D0BB91D5DA42D00764F52 = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B06F8B2159C80D004D299C /* DIYSystemDatePickerView.m in Sources */,
+				A68D0BDF1D5DA6CE00764F52 /* Home_Label_but.m in Sources */,
 				A68D0BAC1D5DA42D00764F52 /* ViewController.m in Sources */,
+				A68D0BDC1D5DA6AF00764F52 /* Team2_on_View.m in Sources */,
 				A68D0BA91D5DA42D00764F52 /* AppDelegate.m in Sources */,
 				A68D0BA61D5DA42D00764F52 /* main.m in Sources */,
 			);
@@ -415,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBF9XG4CHM;
 				INFOPLIST_FILE = timeview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBF9XG4CHM;
 				INFOPLIST_FILE = timeview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ky.timeview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +531,7 @@
 				A68D0BD01D5DA42D00764F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A68D0BD11D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +540,7 @@
 				A68D0BD31D5DA42D00764F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A68D0BD41D5DA42D00764F52 /* Build configuration list for PBXNativeTarget "timeviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +549,7 @@
 				A68D0BD61D5DA42D00764F52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
